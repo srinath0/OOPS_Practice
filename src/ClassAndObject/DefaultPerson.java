@@ -5,7 +5,7 @@ public class DefaultPerson {
     int age;
     String Gender;
 
-// Default Constuctor
+// Default Constuctor--if values not assigned it will be taking the default values
     public DefaultPerson(){
         name = "Unknown";
         age = 24;

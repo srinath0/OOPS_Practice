@@ -2,8 +2,10 @@ package ClassAndObject;
 
 public class MainCar {
     public static void main(String[] args){
-        Car nano = new Car();
+        Car nano = new Car();//Object Creation,class loading,object reference
         nano.brand = "TATA";
+        System.out.println(nano.hashCode());
+        System.out.println(nano);
         nano.model = "Nano";
         nano.year = 2024;
         //Class And Object
